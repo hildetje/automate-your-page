@@ -1,0 +1,95 @@
+/* CSS file for Udacity website */
+/*  
+	Used some of the code on Andy's website as a starting point
+*/
+
+
+body {
+	padding: 20px 10px;
+	font-family: georgia;
+	max-width: 2000px; 
+	margin: 0 auto; /* The 0 refers to the top and bottom margins and the "auto" automatically */
+	font-size: 1em;
+	background-color: gray;
+}                 /* sets the left and right margins to equal values. This centers the body on the page.*/
+
+h1 {
+	text-align: center;
+	color: purple;
+	padding: 20px ;
+}
+
+h2 {
+	font-size: 22px;
+	padding-bottom: 15px;
+}
+
+h3 {
+	font-size: 19px;
+}
+
+p {
+	margin: 15px 0;
+	font-size: 18px;	
+}
+
+
+li {
+	font-size: 18px;
+}
+
+a {
+	color: purple
+}
+
+.indent {
+	padding-left: 30px;
+}
+
+.quote {
+	text-align: center;
+	background-color: gray;
+	color: white;
+	padding: 15px;
+	border: solid 0.1em;
+	border-color: black;
+	margin: 30px;
+}
+
+.code {
+	font-family: courier;
+	font-size: 17px;
+	font-weight: bold;
+}
+.section {
+	background-color: white;
+	font-size: 18px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 25px;
+	padding-top: 20px;
+	margin: 10px;
+	border: solid 0.1em;
+	border-radius: 4px;
+	border-color: black;
+	/*text-align: center;*/
+	color: black;
+	text-align: justify;
+}
+
+.container {
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+}
+
+.item {
+	background-color: white;
+	padding: 40px;
+	margin: 10px;
+	border: solid 0.1em;
+	border-radius: 4px;
+	border-color: black;
+	color: black;
+	flex-grow: 1;
+}

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="utf-8"/>
+	<title>Introduction to Programming Nanodegree May 2015"</title>
+	<link rel ="stylesheet" href="style.css">
+</head>
+<body>
+	<div class ="section">
+		<h1>INTRODUCTION TO PROGRAMMING NANODEGREE MAY 2015 COHORT</h1>
+	</div>
+	<div class="container">
+		<div class="item">
+			<h2>Get started</h2>
+			<p>
+				<a href = "https://docs.google.com/a/knowlabs.com/document/d/1W-GV7Y0TNIPLox1UJDgFxvioq6Y0dYitQ-1_SIJsw0A/pub?embedded=true">
+				Student Handbook & Syllabus</a>
+			</p>
+			<p>General information about nanodegree</p>
+			<p>Will be able to choose path at the end </p>
+			<p><b>Thinking like a programmer:</b></p>
+			<ul>
+				<li>Procedural thinking</li>
+				<li>Abstract thinking</li>
+				<li>Systematic debugging</li>
+				<li>Technological empathy</li>
+				<li>Systems thinking</li>
+			</ul>
+			<p><a href = "http://learn-2-code.appspot.com/"> Andy's web page</a></p>
+		</div>
+		<div class="item">
+			<img src="http://www.wallpaperup.com/uploads/wallpapers/2014/04/22/341284/big_thumb_579264430b9ab9239f28fdb6d506c110.jpg" alt="text">
+
+			<!-- How do I get this image to center in the flex box itself?? -->
+		</div>
+	</div>
+	<div class="section">
+		<h2>The Basics of the Web and HTML (Steve Huffman/Reddit)</h2>
+		<p>Two units:</p>
+		<ol>
+			<li>Develop technological empathy </li>
+			<li>Create an HTML document </li>
+		</ol>
+		<p><em><b>Unit 1: Basics of the web</b></em></p>
+		<p>HTML: HyperText Markup Language (glue), main type of document on the web</p>
+		<p>Anything can exist on the web</p>
+		<p>
+			Major pieces: your computer + browser, internet, servers (computers optimized for hosting files). 
+			Communicate with http protocol.
+		</p>
+		<p>HTML:</p>
+		<ul>
+			<li>Text content</li>
+			<li>Markup (what it looks like) </li>
+			<li>Element: &lt;name> <em>contents</em> &lt;/name></li>
+			<li>References to other documents</li>
+			<li>Links</li>
+		</ul>
+		<p>Markup:</p>
+		<ul>
+			<li><span class="code">&lt;b></span>: bold </li>
+			<li><span class="code">&lt;em></span>: emphasis (italics) </li>
+			<li>Close tags!</li>
+		</ul>
+		<p>
+			HTML attribute: value inside tag<br>
+			<span class="code">&lt;a href =  "www"...> </span>for links<br>
+			<span class="code">&lt;img src= "url" alt= "text"></span> image source, alt is required (broken requests, blind people), 
+			no closing tag needed (void tag)
+		</p>
+		<p class="quote">
+			*Understand the big ideas and don't sweat the details: Google is your friend.*
+		</p>
+		<p>Whitespace:</p> 
+		<ul>
+			<li>Use <span class="code">&lt;br></span> tag (void tag) for a line break, inline element </li>
+			<li>Or use a <span class="code">&lt;p></span> tag (content tag), block element, invisible "box" around text. </li>
+			<li><span class="code">"\n"</span> is used in other languages</li>
+		</ul>
+		<p>Span/div:</p>
+		<ul>
+			<li>Used to contain content, which can be manipulated</li>
+			<li><span class="code">Span</span> = inline, <span class="code">div</span> = block</li>
+			<li><span class="code">"class"</span> is used in CSS</li>
+		</ul>
+		<p>Structure of an HTML document:</p>
+		<ul>
+			<li>Doctype</li>
+			<li>Html</li>
+			<li>Head (metadata, JS, CSS, Title (appears in browser tab))</li>
+			<li>Body (contents of doc) </li>
+		</ul>
+		<p>Take-away points:</p>
+		<ol>	
+			<li>What is a web page (text doc in HTML language, read by browser)</li>
+			<li>How coding works (code written by programmer, interpreted by computer)</li>
+			<li>Computers are stupid (write so the computer will understand you)</li>
+			<li>Programmers can't remember everything</li>
+			<li>Basic HTML vocab</li>
+		</ol>
+	</div>
+	<div class="section">
+		<h2>Project Stage 0: Getting Started with HTML</h2>
+		<p>Make your first simple web page</p>
+		<p>Convert notes into HTML and submit for feedback</p>
+	</div>
+	<div class="section">
+		<h2>Keys to Success: Nanodegree Orientation</h2>
+		<p>Finding out if you've got what it takes</p>
+		<p>Explanation on projects, Discussion forum, Cohorts, Office hours</p>
+		<p>Get access to Cohort forum and introduce yourself</p>
+	</div>
+	<div class="section">
+		<h2>How Learning to Code Works</h2>
+		<p>Different stages of learning</p>
+		<p>Nanodegree: combination of awareness and ability</p>
+		<p>What to do when you see code you don't understand</p>
+	</div>
+	<div class="section">
+		<h2>Stage 1 Intro: Make Your Web Page</h2>
+		<p>Going through HTML and CSS on Andy's page</p>
+		<p>Make your own website </p>
+		<p>Take notes for 1.1-.3 and convert into HTML</p>
+		<p>There are two work sessions in Stage 1, which should take about a week to complete</p>
+	</div>
+	<!-- Stage 1 begins here, put in one containing div box, I might do something with this later -->
+	<div>
+		<div class="section">
+			<h2>1.1 The Basics of the Web and HTML</h2>
+			<p>Repeat of session with Steve Huffman, see above.</p>
+		</div>
+		<div class="section">
+			<h2>1.2 Creating a Structured Document</h2>
+			<p>
+				HTML files are structured trees, branching from the initial <span class="code">&lt;html></span> tag 
+				to smaller tags like <span class="code">&lt;p></span> and then <span class="code">&lt;a></span>. Webpages are made out of many boxes.
+				Classes are labels for your "box", and are assigned inside tags
+			</p>
+			<p>
+				You can look at a page's structure by going over it in <b>Google Chrome dev tools</b>.
+				You can look at the style of each element by clicking it in the tool, 
+				the style properties will show in a separate tab.<br>
+				Right clicking on element and selecting "inspect element" goes straight to that element in dev tools.
+				You can change the style of the page directly in the tool, but refresh and everything resets.
+			</p>
+			<p>
+				HTML: language of the web, has a syntax and rules. 
+				Tags are like words, and can have attributes (e.g. class). This controls structure.<br>
+				DOM (Document Object Model): creates a tree from HTML tags (elements)<br>
+				CSS: language of style, also has a syntax and rules.
+			</p>
+			<p>Download <a href = "http://www.sublimetext.com/">Sublime</a>, a text editor.</p>
+		</div>
+		<div class="section">
+			<h2>Stage 1: Work Session 1</h2>
+			<p>
+				In these sessions, you'll work on your website<br><br>
+				Part 1: Review<br>
+				Part 2: Improve site<br>
+			</p>
+			<p class="quote">*With reflection and practice you'll start to think and look like an expert.*</p>
+			<p>
+				Add new notes to HTML and open in editor <em>(I used Notepad++, 
+				will download Sublime later on my personal computer)</em>
+			</p>
+		</div>
+		<div class="section">
+			<h2>1.3 Adding CSS Style and HTML Structure</h2>
+			<p>
+				Don't repeat yourself! It is critical to avoid repeating your code to minimize mistakes and keep things consistent. 
+				You can do this with CSS (Cascading Style Sheets).
+			</p>
+			<p>
+				CSS code is often written in a separate file, sometimes multiple. You need to add a link in HTML file to CSS file to connect them. 
+				You can put CSS in the <span class="code">&lt;head></span> tag in an html file, or you can create a separate CSS file. 
+				Sometimes you may see style written inline with the HTML code, but this is not recommended!
+			</p>
+			<p>
+				By linking <span class="code">"class =..."</span> (within tags) in the html file to a selector 
+				to a class in the css file, you can assign style to elements.
+				Nomenclature:<br><br>
+				<p class="code">
+					.selector {<br>
+				</p>
+				<p class="indent">
+					<span class="code">property: value;<br></span>
+					<span class="code">(declaration) <br><br></span>
+					<span class="code">}</span>
+				</p>
+			<p>In CSS, the most specific rule applies (<a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Inheritance">inheritance</a>)</p>
+			<p>Handy Mozilla <a href ="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS Reference</a></p>
+			<p>
+				You can insert code comments as follows:
+				<span class="code">&lt;!--   --> </span> in HTML, 
+				<span class="code">/*  */ </span> in CSS
+			</p>
+			<div>
+				<h3>From Office Hours:</h3>
+				<p>
+					You can use <span class="code">"id"</span> in tags to uniquely assign attributes to one specific element. 
+					This is written as: <span class="code">&lt;div id="welcome"></span> and can be used for CSS purposes or as a link anchor:
+					<span class="code">&lt;a href="#welcome">Welcome&lt;/a></span>
+					This is similar to class elements, but you should strive to group elements in a class and use ids sparingly.
+				</p>
+				<p>Box Model:</p>
+				<ul>
+					<li>Content</li>
+					<li>Padding (space inside the box that protect the content)</li>
+					<li>Border</li>
+					<li>Margin</li>
+				</ul>
+				<p>You can set sizes as pixels but it is often recommended to use percentages, as not all browser windows are the same size.</p>
+				<p>
+					Using <span class="code">"box-sizing: border-box"</span> in CSS is an easy way of calculating box size, but margin is not included. 
+					This was developed recently so you need to add browser specific prefixes.
+				</p>
+				<p>To make div boxes align next to each other use <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">flexbox layout</a>.</p>	
+				<p>
+					Check your <a href="http://validator.w3.org/#validate_by_input">HTML</a> and 
+					<a href="https://jigsaw.w3.org/css-validator/#validate_by_input">CSS</a> code to see if it's correct.
+				</p>
+			</div>
+		</div>
+		<div class="section">
+			<h2>Stage 1: Work Session 2</h2>
+			<p>Add new notes to your page, and use CSS to style it. </p>
+		</div>
+	</div>
+	<div>
+		<div class="section">
+			<h2>Stage 2 Intro: Automate Your Page</h2>
+			<p>In this stage, you’ll write python code to make an automatic HTML web page.</p>
+		</div>
+		<div class="section">
+			<h2>2.1 Introduction to Serious Programming (Dave Evans)</h2>
+			<p>
+				Computer science: breaking a problem into smaller units, so a computer can execute them.
+				A computer itself doesn’t do anything unless a program tells it what to do, then it can do anything you can write, as long as it can compute it.
+				So, we can turn the computer into anything we can imagine, by inputting a precise sequence of steps.
+			</p>
+			<p>Python is a high level language, that must be translated by interpreter which interprets our program and executes it.</p>
+			<p>
+				<em>"The programs you'll write in this class will be Python code. Those will be input to another 
+				program which is a Python interpreter that follows the instructions in your code and it does 
+				that by following the instruction in its code... and you'll be able to run all that using your web browser."</em><br>
+				They are all versions of the same thing!
+			</p>
+			<p>The editor is where you actually write your code</p>
+			<p>In Python, we can use print e.g. for simple arithmetic or strings</p>
+			<p>Why not use natural languages?</p>
+			<ul>
+				<li>Ambiguity</li>
+				<li>Verbosity</li>
+			</ul>
+			<p>
+				Backus-Naur form describes the syntax of programming languages, e.g.:<br>
+				<span class="code">&lt;non-terminal> -> replacement</span> (derivation)
+			</p>
+			<p>Python has a different grammar as well, e.g.: </p>
+			<ul>
+				<li><span class="code">Expression -> Expression (number) Operator (*,+))Expression (recursive)</span></li>
+				<li><span class="code">Expression -> Number</span></li>
+				<li><span class="code">Expression -> (Expression)</span></li>
+			</ul>
+			<p>Some more CS classes on Udacity</p>
+			<ul>
+				<li>Intro to Computer Science: the course that this course samples from</li>
+				<li>Programming Languages: more about the nitty gritty of what programming languages are</li>
+				<li>Introduction to Algorithms: a mathematical approach to thinking about programming</li>
+				<li>Intro to Theoretical Computer Science: explores questions like "what makes a problem hard?"</li>
+			</ul>
+			<p>By using decimals in your code, you will not get rounded numbers.</p>
+			<p>Admiral Grace Hopper wrote one of the first programming languages (Cobalt)</p>
+			<p>Watch an interview with her on the <a href ="http://www.myvidster.com/video/425708/Grace_Hopper_on_Letterman">Letterman show </a></p>
+		</div>
+		<div class="section">
+			<h2>Stage 2: Work Session 1</h2>
+			<p>Debugging: making mistakes is unavoidable, but you need to develop a system for finding and fixing them</p>
+		</div>
+		<div class="section">
+			<h2>2.2 Variables and Strings</h2>
+			<p>
+				You can use variables to store information: <br>
+				<span class="code">Name = Expression</span> (“=” is used to assign a value, does not mean “equal”) e.g. a string or a number<br>
+				You can change what’s stored in the variable, by assigning it a different value<br>
+			</p>
+
+			<p>Augusta Ada King was the first computer programmer (in the 1800s)</p>
+
+			<p>
+				Indexing strings: <span class="code">string[character]</span> e.g. <span class="code">name = ‘Hilde’, name[0] -> ‘H’</span> <br>
+				Selecting subsequences: <span class="code">name[0:2]->’Hi’, name[:2] -> ‘Hi’</span> <br>
+				Find a string in a string: <span class="code">&lt;search-string>.find(&lt;target-string>)</span><br>
+				You can pass another parameter which will define the start position:<br>
+				<span class="code">&lt;search-string>.find(&lt;target-string>,&lt;number>)</span>
+			</p>
+		</div>
+		<div class="section">
+			<h2>Stage 2: Work Session 2</h2>
+			<p>Playing with strings!</p>
+		</div>
+		<div class="section">
+			<h2>2.3 Input -> Function -> Output</h2>
+			<p>
+				A function takes input and then performs an action to produce output. This makes
+				life easier on the programmer because repetitive tasks can be put in functions.<br>
+			</p>
+			<p class="code">
+				&lt;procedure> (&lt;input>,&lt;input>):<br>
+				<span class="indent">operand</span><br>
+				<span class="indent">argument</span>
+			</p>
+			This is written as: <br>
+			<p class="code">
+				def name(parameter, parameter):<br>
+				<span class="indent">...</span>
+			</p>
+			<p>	Make sure to add a return statement if you want to see the output.</p>
+			<p>
+				Define function: to set it up<br>
+				Use function: to pass parameters, get output
+			</p>
+			<p>You can use triple quotes (""") to create multi-line strings in Python.</p>
+		</div>
+		<div class="section">
+			<h2>Stage 2: Work Session 3</h2>
+			<p>Created a function to automatically create HTML code for a concept div</p>
+		</div>
+		<div class="section">
+			<h2>2.4 Control Flow & Loops: If and While</h2>
+			<p>
+				If statements validate if the test expression is true or not, then performs the action in the corresponding block.<br>
+			</p>	
+			<p class="code">
+				if &lt;text expression>:<br>
+				<span class="indent">&lt;block></span><br>
+				(else:<br>
+				<span class="indent">&lt;block>)</span>
+			</p> 
+			<p>
+				Booleans are statements that return either <span class="code">TRUE</span> or <span class="code">FALSE</span> 
+				(e.g. <span class="code">1 > 2 -> FALSE</span>)<br>
+				<span class="code">TRUE or FALSE -> TRUE</span> (positive is dominant)
+			</p>
+			<p>Functions can be nested in other functions, so code can be reused.</p>
+			<p>
+				In the early 1900s Alan Turing proved that a machine with a few simple operations could simulate any other machine. 
+				He broke the Enigma code used by the Nazis.
+			</p>
+			<p>Loops continue as long as the text expression is true:</p>
+			<p class="code">
+				while &lt;text expression>:<br>
+				<span class="indent">&lt;block></span>
+			</p>
+			<p>Make sure the block includes a statement to invalidate the text expression, or you’ll be stuck in an infinite loop.</p>
+			
+		</div>
+		<div class="section">
+			<h2>2.5 Debugging</h2>
+			<p>Bugs are a part of the learning process. They are inevitable, they don’t mean you’re a failure! Tips on debugging:</p>
+			<ul>	
+				<li>If your code doesn’t work, first see if the error message can help you. Then try to look at some example code, make sure that it works, and see where your code went wrong.</li>
+				<li>Splitting the code up into smaller pieces and see what the output is can help to find the issue.</li>
+				<li>Make sure to save versions of your code, for example with git.</li>
+			</ul>
+			<p>Watch the <a href="http://bit.ly/1EyqSch">video</a> on debugging strategies </p>
+		</div>
+		<div class="section">
+		    <h2>Stage 2: Work Session 4</h2>
+		    <p>
+		        Making your code modular: keep your data separated from its visual representation. E.g. keep your 
+				website’s text separate from its HTML and CSS.
+			</p>
+			<p>Break big problems up into smaller ones, and write functions for those.</p>
+		</div>
+		<div class="section">
+		    <h2>2.6 Structured Data: Lists & For Loops</h2>
+		    <p>Structured data: data ordered in strings and lists. You can take advantage of this structure in certain cases, e.g. in loops.</p>
+			<p>
+				Strings are sequences of characters, whereas lists can hold anything. Stored as a variable, with elements in between brackets []. 
+				Can be searched just as a string, using <span class="code">list[n:n]</span>.
+			</p>
+			<p>Nested lists are lists within lists. By adding a bracket you can hit this second list, e.g. <span class="code">list[n][o]</span></p>
+			<p>
+				You can change the contents of a list by mutating it: assign a different value to a portion of the list. 
+				With strings, you change the value of the variable, but the string is unchanged. A string is immutable.
+			</p>
+			<p>Aliasing: having two different ways of referring to the same object</p>
+			<p>
+				Using <span class="code">.append</span>, you can add another value to the back of the list (mutation). With <span class="code">+</span> you can concatenate lists into a new list. 
+				With <span class="code">len</span>, you can find out the length of the list or string.
+			</p>
+			<p>for loops:</p>
+			<p class="code">
+				for &lt;name> in &lt;list>:<br>
+				<span class ="indent">&lt;block></span>
+			</p>
+			<p>
+				You can use <span class="code">.index</span> to find the first position of a value in a list. A similar function is <span class="code">in</span>: if the value 
+				is in the list -> <span class="code">TRUE</span>, otherwise <span class="code">FALSE</span>. Using <span class="code">not in</span> gives the reverse output.
+		    </p>
+		</div>
+		<div class="section">
+		    <h2>2.7 How to Solve Problems</h2>
+		    <p>
+		        Make sure you understand the problem first. A problem is defined by possible inputs and its relationship with its corresponding outputs.
+		    </p>    
+		    <ol>
+					<li><b>Don’t panic</b></li>
+					<li>What are the inputs?</li>
+					<li>What are the outputs?</li>
+					<li>Work through some examples by hand</li>
+					<li>Write a simple mechanical solution</li>
+					<li>Develop incrementally and test as you go
+					
+						<ul>
+							<li>Write pseudocode</li>
+							<li>Start implementing</li>
+							<li>Don’t optimize prematurely</li>
+						</ul>
+					</li>
+				</ol>
+		</div>
+		<div class="section">
+		    <h2>Stage 2: Work Session 5</h2>
+		    <p>Add your new HTML, and also submit a .py file with code to automatically write HTML from a list.</p>
+		</div>
+	</div>
+HS 2015
+</body>
+</html>
